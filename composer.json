@@ -10,35 +10,21 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.3",
+        
         "phpunit/phpunit": "3.7.*",
         "phpunit/phpunit-selenium": "1.2.*",
         "pdepend/pdepend": "1.1.*",
-        "pear-pear.phpunit.de/phpcpd": "*",
         "phpmd/phpmd": "*",
-        "squizlabs/php_codesniffer": "1.4.*",
-        "pear-phpqatools/PHP_CodeBrowser": "*",
         "phploc/phploc": "dev-master",
+
+        "squizlabs/php_codesniffer": "1.4.*",
+        
         "mikey179/vfsStream": "1.1.*",
+        
         "behat/behat": "2.4.*@stable",
         "behat/mink": "1.4.*@stable",
-        "behat/symfony2-extension": "*",
         "behat/mink-extension": "*",
         "behat/mink-browserkit-driver": "*",
-        "behat/mink-selenium2-driver": "*",
-        "pear-pear.php.net/pear": "*"
-    },
-    "repositories": [
-        {
-            "type": "pear",
-            "url": "pear.phpunit.de"
-        },
-        {
-            "type": "pear",
-            "url": "pear.phpqatools.org"
-        },
-        {
-            "type": "pear",
-            "url": "pear.php.net"
-        }
-    ]
+        "behat/mink-selenium2-driver": "*"
+    }
 }
