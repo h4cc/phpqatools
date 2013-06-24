@@ -19,20 +19,20 @@ Included in this package are:
 
 The installed tools are available in vendor/bin/ and can be started like this:
 
-  php vendor/bin/phpmd
+    php bin/phpmd
   
 
 # Installation
 
 To use this package, add it as as "dev" dependency with this command:
 
-  php composer.phar require h4cc/phpqatools --dev
+    php composer.phar require h4cc/phpqatools --dev
 
 Or modify your composer.json as followed:
 
-  require-dev: {
-    "h4cc/phpqatools": "*"
-  }
+    require-dev: {
+      "h4cc/phpqatools": "*"
+    }
 
 More info about development dependencies: http://getcomposer.org/doc/04-schema.md#require-dev
 
