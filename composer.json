@@ -1,31 +1,38 @@
 {
     "name": "h4cc/phpqatools",
     "description": "A meta composer package for PHP QA Tools.",
+    "keywords": ["php", "qa", "tools", "debug"],
+    "type": "metapackage",
+    "license": "MIT",
     "authors": [
         {
             "name": "Julius Beckmann",
-            "email": "phpqatools@h4cc.de"
+            "email": "phpqatools@h4cc.de",
+            "homepage": "http://h4cc.de"
         }
     ],
-    "minimum-stability": "dev",
+    "config": {
+        "bin-dir": "bin",
+        "vendor-dir": "vendor"
+    },
     "require": {
-        "php": ">=5.3.3",
+        "phpunit/phpunit": "~3.7",
+        "phpunit/php-invoker": "~1.1",
+        "phpunit/dbunit": "~1.2",
         
-        "phpunit/phpunit": "3.7.*",
-        "phpunit/phpunit-selenium": "1.2.*",
-        "phpunit/php-invoker": "*",
-        "pdepend/pdepend": "1.1.*",
-        "phpmd/phpmd": "*",
-        "phploc/phploc": "dev-master",
-
-        "squizlabs/php_codesniffer": "1.4.*",
+        "pdepend/pdepend": "~1.1",
+        "phpmd/phpmd": "~1.4",
+        "squizlabs/php_codesniffer": "~1.4",
         
-        "mikey179/vfsStream": "1.1.*",
+        "apigen/apigen": "~2.8",
+        "sami/sami": "~1.0"
+    },
+    "suggest": {
+        "phploc/phploc": "[NotYetStable] A tool for quickly measuring the size of a PHP project.",
+        "sebastian/phpcpd": "[NotYetStable] Copy/Paste Detector (CPD) for PHP code.",
         
-        "behat/behat": "2.4.*@stable",
-        "behat/mink": "1.4.*@stable",
-        "behat/mink-extension": "*",
-        "behat/mink-browserkit-driver": "*",
-        "behat/mink-selenium2-driver": "*"
+        "theseer/phpdox": "[NotYetStable] A fast Documentation generator for PHP Code using standard technology (SRC, DOCBLOCK, XML and XSLT) with event based processing.",
+        "phpdocumentor/phpdocumentor": "[NotYetStable] Documentation Generator for PHP.",
+        "mayflower/php-codebrowser": "[NotYetStable] A code browser that augments the code with information from various QA tools."
     }
 }
