@@ -1,0 +1,17 @@
+
+language: php
+
+php:
+  - 5.5
+  - 5.4
+  - 5.3
+
+script:
+  # Try to install all requirements.
+  - composer install
+  # Check if there is a security issue with the required packages.
+  - bin/security-checker security:check composer.lock
+
+notifications:
+  email:
+    - php@h4cc.de
