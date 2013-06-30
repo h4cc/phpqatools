@@ -25,7 +25,9 @@
         "squizlabs/php_codesniffer": "~1.4",
         
         "apigen/apigen": "~2.8",
-        "sami/sami": "~1.0"
+        "sami/sami": "~1.0",
+
+        "sensiolabs/security-checker": "v1.2"
     },
     "suggest": {
         "phploc/phploc": "[NotYetStable] A tool for quickly measuring the size of a PHP project.",

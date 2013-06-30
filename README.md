@@ -13,6 +13,7 @@ Included in this package are:
 - PHP_CodeSniffer
 - Apigen
 - Sami
+- Sensiolabs/Security-Checker
 
 
 # Usage
