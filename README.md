@@ -8,11 +8,11 @@ Included in this package are:
 - PHPUnit
 - PHP-Invoker
 - DbUnit
+- PHPLOC
+- PHPCPD
 - PHP_Depend
 - PHPMD
 - PHP_CodeSniffer
-- Apigen
-- Sami
 - Sensiolabs/Security-Checker
 
 

@@ -19,22 +19,22 @@
         "phpunit/phpunit": "~3.7",
         "phpunit/php-invoker": "~1.1",
         "phpunit/dbunit": "~1.2",
+
+        "phploc/phploc": "~2.0",
+        "sebastian/phpcpd": "~1.4",
         
         "pdepend/pdepend": "~1.1",
         "phpmd/phpmd": "~1.4",
         "squizlabs/php_codesniffer": "~1.4",
-        
-        "apigen/apigen": "~2.8",
-        "sami/sami": "~1.0",
 
-        "sensiolabs/security-checker": "v1.2"
+        "sensiolabs/security-checker": "~1.2"
     },
     "suggest": {
-        "phploc/phploc": "[NotYetStable] A tool for quickly measuring the size of a PHP project.",
-        "sebastian/phpcpd": "[NotYetStable] Copy/Paste Detector (CPD) for PHP code.",
-        
+        "sami/sami": "Documentation generator used for Symfony2 docs.",
+        "apigen/apigen": "Documentation Generator using nette and texy.",
+        "phpdocumentor/phpdocumentor": "Documentation Generator for PHP.",
         "theseer/phpdox": "[NotYetStable] A fast Documentation generator for PHP Code using standard technology (SRC, DOCBLOCK, XML and XSLT) with event based processing.",
-        "phpdocumentor/phpdocumentor": "[NotYetStable] Documentation Generator for PHP.",
-        "mayflower/php-codebrowser": "[NotYetStable] A code browser that augments the code with information from various QA tools."
+
+        "mayflower/php-codebrowser": "[Deps-NotYetStable] Browser for PHP code."
     }
 }
