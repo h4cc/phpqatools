@@ -39,6 +39,14 @@ Or modify your composer.json as followed:
 More info about development dependencies: http://getcomposer.org/doc/04-schema.md#require-dev
 
 
+# Versioning
+
+This package will be updated, when newer or other stable packages become available. Fell free to suggest tools if they are missing.
+
+To avoid problems you may not use composer version constraints like this "~1.1". Such a constraint will always upgrade to the newest "1.\*" version which might break your toolchain.
+In such a case, simply stick to a minor-version like "1.2.\*".
+
+
 # Todo
 
 A phing buildfile may be included someday.
