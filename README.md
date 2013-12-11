@@ -13,6 +13,7 @@ Included in this package are:
 - PHP_Depend
 - PHPMD
 - PHP_CodeSniffer
+- Fabien Potencier/PHP Coding Standards Fixer
 - Sensiolabs/Security-Checker
 
 
