@@ -20,8 +20,8 @@ Included in this package are:
 
 The installed tools are available in vendor/bin/ and can be started like this:
 
-    php bin/phpmd
-  
+    php vendor/bin/phpmd
+
 
 # Installation
 
