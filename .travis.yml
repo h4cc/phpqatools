@@ -6,6 +6,10 @@ php:
   - 5.3
   - hhvm
 
+matrix:
+    allow_failures:
+        - php: hhvm
+
 script:
   # Try to install all requirements.
   - composer install
