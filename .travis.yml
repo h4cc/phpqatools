@@ -1,6 +1,7 @@
 language: php
 
 php:
+  - 5.6
   - 5.5
   - 5.4
   - 5.3
@@ -11,6 +12,8 @@ matrix:
         - php: hhvm
 
 script:
+  # Validate composer.json file.
+  - composer validate
   # Try to install all requirements.
   - composer install
   # Check if there is a security issue with the required packages.
