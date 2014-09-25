@@ -23,12 +23,12 @@
         "phploc/phploc": "~2.0",
         "sebastian/phpcpd": "~2.0",
 
-        "pdepend/pdepend": "~1.1",
-        "phpmd/phpmd": "~1.4",
+        "pdepend/pdepend": "~2.0",
+        "phpmd/phpmd": "~2.0",
         "squizlabs/php_codesniffer": "~1.4",
 
         "fabpot/php-cs-fixer": "~0.3",
-        "sensiolabs/security-checker": "~1.2"
+        "sensiolabs/security-checker": "~2.0"
     },
     "suggest": {
         "sami/sami": "Documentation generator used for Symfony2 docs.",
