@@ -27,7 +27,7 @@
         "phpmd/phpmd": "~2.0",
         "squizlabs/php_codesniffer": "~1.4",
 
-        "fabpot/php-cs-fixer": "~0.3",
+        "fabpot/php-cs-fixer": "~1.0",
         "sensiolabs/security-checker": "~2.0"
     },
     "suggest": {
