@@ -34,8 +34,7 @@
         "sami/sami": "Documentation generator used for Symfony2 docs.",
         "apigen/apigen": "Documentation Generator using nette and texy.",
         "phpdocumentor/phpdocumentor": "Documentation Generator for PHP.",
-        "theseer/phpdox": "[NotYetStable] A fast Documentation generator for PHP Code using standard technology (SRC, DOCBLOCK, XML and XSLT) with event based processing.",
-
-        "mayflower/php-codebrowser": "[Deps-NotYetStable] Browser for PHP code."
+        "theseer/phpdox": "A fast Documentation generator for PHP Code using standard technology (SRC, DOCBLOCK, XML and XSLT) with event based processing.",
+        "mayflower/php-codebrowser": "Browser for PHP code."
     }
 }
