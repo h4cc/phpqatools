@@ -16,6 +16,7 @@ Included in this package are:
 - Fabien Potencier/PHP Coding Standards Fixer
 - Sensiolabs/Security-Checker
 - Behat
+- Codeception
 
 
 # Usage
