@@ -15,6 +15,7 @@ Included in this package are:
 - PHP_CodeSniffer
 - Fabien Potencier/PHP Coding Standards Fixer
 - Sensiolabs/Security-Checker
+- Behat
 
 
 # Usage
