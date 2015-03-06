@@ -30,7 +30,7 @@
         "fabpot/php-cs-fixer": "~1.0",
         "sensiolabs/security-checker": "~2.0",
 
-        "behat/behat": "2.4.*@stable",
+        "behat/behat": "~3.0",
         "codeception/codeception": "~2.0"
     },
     "suggest": {
