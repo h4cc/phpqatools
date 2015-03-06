@@ -28,7 +28,10 @@
         "squizlabs/php_codesniffer": "~1.4",
 
         "fabpot/php-cs-fixer": "~1.0",
-        "sensiolabs/security-checker": "~2.0"
+        "sensiolabs/security-checker": "~2.0",
+
+        "behat/behat": "~3.0",
+        "codeception/codeception": "~2.0"
     },
     "suggest": {
         "sami/sami": "Documentation generator used for Symfony2 docs.",
