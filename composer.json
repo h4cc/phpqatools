@@ -16,7 +16,7 @@
         "vendor-dir": "vendor"
     },
     "require": {
-        "phpunit/phpunit": "~4.0",
+        "phpunit/phpunit": "~4.0|~5.0",
         "phpunit/php-invoker": "~1.1",
         "phpunit/dbunit": "~1.2",
 
@@ -25,10 +25,10 @@
 
         "pdepend/pdepend": "~2.0",
         "phpmd/phpmd": "~2.0",
-        "squizlabs/php_codesniffer": "~1.4",
+        "squizlabs/php_codesniffer": "~2.0",
 
         "fabpot/php-cs-fixer": "~1.0",
-        "sensiolabs/security-checker": "~2.0",
+        "sensiolabs/security-checker": "~3.0",
 
         "behat/behat": "~3.0"
     },
@@ -37,7 +37,7 @@
         "apigen/apigen": "Documentation Generator using nette and texy.",
         "phpdocumentor/phpdocumentor": "Documentation Generator for PHP.",
         "theseer/phpdox": "A fast Documentation generator for PHP Code using standard technology (SRC, DOCBLOCK, XML and XSLT) with event based processing.",
-        "mayflower/php-codebrowser": "Browser for PHP code."
+        "mayflower/php-codebrowser": "A code browser that augments the code with information from various QA tools."
     },
     "extra": {
         "branch-alias": {
