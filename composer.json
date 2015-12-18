@@ -36,7 +36,6 @@
         "fabpot/php-cs-fixer": "~1.0",
         "sensiolabs/security-checker": "~2.0",
 
-        "halleck45/phpmetrics": "^1.8",
         "behat/behat": "^3.0",
         "justinrainbow/json-schema": "1.5.0",
         "kherge/box": "^2.6"
