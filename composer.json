@@ -13,32 +13,29 @@
     ],
     "config": {
         "bin-dir": "bin",
-        "vendor-dir": "vendor"
+        "vendor-dir": "vendor",
+        "platform": {
+            "php": "5.3.6"
+        }
     },
     "require": {
-        "symfony/console": "^2.8",
-        "symfony/yaml": "^2.8",
-        "symfony/config": "^2.8",
-        "symfony/event-dispatcher": "^2.8",
-        "symfony/dependency-injection": "^2.8",
-
-        "phpunit/phpunit": "^4.8",
+        "phpunit/phpunit": "~4.8",
         "phpunit/php-invoker": "~1.1",
         "phpunit/dbunit": "~1.2",
 
-        "phploc/phploc": "^2.1",
-        "sebastian/phpcpd": "^2.0",
+        "phploc/phploc": "~2.0",
+        "sebastian/phpcpd": "~2.0",
 
-        "pdepend/pdepend": "^2.2",
-        "phpmd/phpmd": "^2.3",
-        "squizlabs/php_codesniffer": "^2.5",
+        "pdepend/pdepend": "~2.2",
+        "phpmd/phpmd": "~2.3",
+        "squizlabs/php_codesniffer": "2.5",
 
         "fabpot/php-cs-fixer": "~1.0",
         "sensiolabs/security-checker": "~2.0",
 
-        "behat/behat": "^3.0",
+        "behat/behat": "~3.0",
         "justinrainbow/json-schema": "1.5.0",
-        "kherge/box": "^2.6"
+        "kherge/box": "~2.6"
     },
     "suggest": {
         "sami/sami": "Documentation generator used for Symfony2 docs.",
