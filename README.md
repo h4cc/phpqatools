@@ -22,20 +22,25 @@ Included in this package are:
 
 The installed tools are available in vendor/bin/ and can be started like this:
 
-    php vendor/bin/phpmd
-
+```bash
+php vendor/bin/phpmd
+```
 
 # Installation
 
 To use this package, add it as as "dev" dependency with this command:
 
-    php composer.phar require h4cc/phpqatools --dev
+```bash
+composer require h4cc/phpqatools --dev
+```
 
 Or modify your composer.json as followed:
 
-    require-dev: {
-      "h4cc/phpqatools": "*"
-    }
+```json
+require-dev: {
+  "h4cc/phpqatools": "*"
+}
+```
 
 More info about development dependencies: http://getcomposer.org/doc/04-schema.md#require-dev
 
@@ -50,5 +55,5 @@ In such a case, simply stick to a minor-version like "1.2.\*".
 
 # Todo
 
-A phing buildfile may be included someday.
+A phing or task buildfile may be included someday.
 I hope some more tools get available in stable versions, so i can add them here.
