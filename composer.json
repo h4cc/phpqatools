@@ -17,7 +17,6 @@
     },
     "require": {
         "phpunit/phpunit": "~4.0|~5.0",
-        "phpunit/php-invoker": "~1.1",
         "phpunit/dbunit": "~1.0|~2.0",
 
         "phploc/phploc": "~2.0",
